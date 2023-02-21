@@ -625,6 +625,11 @@ video {
   background-color: hsla(300,80%,25%, .5);
 }
 
+.bg-legendaryLavender {
+  --tw-bg-opacity: 1;
+  background-color: rgb(170 92 219 / var(--tw-bg-opacity));
+}
+
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -727,6 +732,10 @@ video {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-2\/3 {
+    height: 66.666667%;
   }
 
   .md\:w-10\/12 {
