@@ -1,6 +1,5 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.html"],
   theme: {
     colors: {
       blackRussian: '#090b1a',
@@ -15,7 +14,8 @@ module.exports = {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
         lexendDeca: ['Lexend Deca', 'sans-serif'],
-      }
+      },
+
 
     },
   },
